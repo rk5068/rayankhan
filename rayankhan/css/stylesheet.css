@@ -1,0 +1,123 @@
+* {
+    padding: 0px;
+    margin: 0px;
+   font-family: 'Gloria Hallelujah', cursive;
+}
+/* Google Font: Gloria Hallelujah */
+/* Background img from pixabay may not always work */
+body {
+    background-image: url(http://3.bp.blogspot.com/-LKggQ5ystyc/Uo2fNoPiXJI/AAAAAAAAMWg/Fld-T2Rs0H8/s1600/antique-wallpapers-antique-world-map-widescreen-free-hd--new-year-photo.jpg)
+}
+
+h1 h2 h3 {
+    text-align: center;
+}
+
+h1 {
+    font-size: 40px;
+    font-family: 'Gloria Hallelujah', cursive;
+}
+
+a {
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+}
+
+p {
+    background-color: rgb(218,165,32);
+    padding: 10px;
+    margin: 20px;
+    border-radius: 10%;
+}
+/* container width might been to be changed to format/organize images to desired location*/
+.container {
+    width: 1100px;
+    margin: 10px auto;
+    background-color: rgba(255,255,255,.5);
+    overflow: auto;
+    border-radius: 2%;
+}
+
+.header {
+    width: 100%;
+    margin: none;
+    background-color: rgba(168,77,54,.5);
+    text-align: center;
+}
+
+.header h1 {
+    padding: 5px;
+}
+
+.menubar {
+    width: 100%;
+    background-color: rgb(218,165,32);
+    text-align: right;
+    border-radius: 0% 5% 5% 0%;
+    
+}
+
+.menubar > ul {
+    width: 99%;
+    
+}
+
+.menubar > ul > li {
+    list-style: none;
+    display: inline-block;
+    vertical-align: top;
+    width: 250px;
+    background-color: darkgoldenrod;
+    box-sizing: border-box;
+}
+
+.menubar > ul > li > ul {
+    list-style: none;
+    width: 300px;
+    position: absolute;
+    left: -5000px;
+}
+
+.menubar > ul > li:hover > ul {
+   display: block;
+    left: auto;
+    background-color: rgba(168,77,54,.5);
+}
+
+.menubar a:hover {
+    font-size: 30px;
+    color: white; 
+}
+
+.sidebar {
+    width: 400px;
+    margin: 30px;
+    padding: 45px;
+    float: left;
+    box-sizing: border-box;
+    
+}
+
+.sidebar a:hover {
+    font-size: 30px;
+    color: white;
+}
+
+.content {
+    padding: 50px;
+    margin: 50px;
+    width: 400px;
+    float: left;
+    border-radius: 10%;
+    background-color: rgba(168,77,54,.5);
+}
+
+.medSideMargin {
+    margin:  10px 20px;
+}
+
+.alignCenter {
+    display: block;
+    margin: auto;
+}
